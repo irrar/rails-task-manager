@@ -1,0 +1,72 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
+body {
+  background: #221F22;
+  color: #FCFCFA;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+  margin: 5rem auto;
+  margin-left: 5rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+em {
+  color: #AC9BF2;
+}
+
+h4 {
+  color: #79DCE8;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+ul li {
+  margin-bottom: 1.3rem;
+  margin-left: -2.5rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: #FDD866;
+  padding: 0.5rem 1rem;
+  border-radius: 0.8rem;
+  color: #2D2A2E;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: #2D2A2E;
+  color: #FDD866;
+}
+
+#btn a {
+  background-color: #79DCE8;
+}
+
+#btn a:hover {
+  background-color: #2D2A2E;
+  color: #79DCE8;
+}
+
+#btn {
+  margin-top: 3rem;
+}
+
+#delete a {
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 8px;
+  color: #FCFCFA;
+  padding: 0;
+  margin: 0 auto;
+}
+
